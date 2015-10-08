@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory android:title="@string/preferences">
+    <CheckBoxPreference android:title="@string/preference_scroll_cards_tittle"
+                        android:summary="@string/preference_scroll_cards_description"
+                        android:defaultValue="false"
+                        android:key="scroll_cards"/>
+    <CheckBoxPreference android:title="@string/preference_keep_screen_on"
+                        android:defaultValue="false"
+                        android:key="keep_screen_on"/>
+    <CheckBoxPreference android:title="@string/preference_tap_to_hide_show_title"
+                        android:summary="@string/preference_tap_to_hide_show_description"
+                        android:defaultValue="false"
+                        android:key="tap_to_hide_show"/>
+      <CheckBoxPreference android:title="Use Fancy cards"
+                      android:summary="Replace digit cards wwith some nice cards"
+                      android:defaultValue="false"
+                      android:key="use_fancy_cards"/>
+  </PreferenceCategory>
+</PreferenceScreen>
